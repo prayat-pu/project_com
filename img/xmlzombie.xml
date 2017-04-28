@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:74bfa72e5d12893ea717618ef91b8650:52a0e6f20fbd94f980b7aab70e338e88:109dd655ee5f666edfa5f9faee2175a6$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="allzombiepng.png" width="237" height="803">
+    <sprite n="zombie_action1.png" x="1" y="1" w="76" h="93" pX="0.5" pY="0.5" oX="0" oY="17" oW="80" oH="110">
+        <vertices>47 18 76 39 67 51 67 110 0 110 0 37 4 17</vertices>
+        <verticesUV>48 2 77 23 68 35 68 94 1 94 1 21 5 1</verticesUV>
+        <triangles>4 2 3 4 5 2 0 2 5 0 1 2 0 5 6</triangles>
+    </sprite>
+    <sprite n="zombie_action2.png" x="79" y="1" w="79" h="92" pX="0.5" pY="0.5" oX="0" oY="18" oW="80" oH="110">
+        <vertices>79 68 79 80 53 110 0 110 0 50 17 19 60 18</vertices>
+        <verticesUV>158 51 158 63 132 93 79 93 79 33 96 2 139 1</verticesUV>
+        <triangles>4 5 6 2 0 1 2 3 4 2 4 0 0 4 6</triangles>
+    </sprite>
+    <sprite n="zombie_back.png" x="160" y="1" w="69" h="95" pX="0.5" pY="0.5" oX="4" oY="15" oW="80" oH="110">
+        <vertices>73 26 73 110 4 110 14 15</vertices>
+        <verticesUV>229 12 229 96 160 96 170 1</verticesUV>
+        <triangles>0 1 2 0 2 3</triangles>
+    </sprite>
+    <sprite n="zombie_cheer1.png" x="1" y="98" w="79" h="93" pX="0.5" pY="0.5" oX="0" oY="17" oW="80" oH="110">
+        <vertices>79 23 79 50 65 110 17 110 0 47 0 39 28 17</vertices>
+        <verticesUV>80 104 80 131 66 191 18 191 1 128 1 120 29 98</verticesUV>
+        <triangles>4 5 6 3 1 2 3 4 1 1 4 6 0 1 6</triangles>
+    </sprite>
+    <sprite n="zombie_cheer2.png" x="82" y="98" w="80" h="92" pX="0.5" pY="0.5" oX="0" oY="18" oW="80" oH="110">
+        <vertices>60 19 80 42 76 102 60 110 8 110 0 39 30 18</vertices>
+        <verticesUV>142 99 162 122 158 182 142 190 90 190 82 119 112 98</verticesUV>
+        <triangles>1 3 5 3 4 5 1 2 3 1 5 6 0 1 6</triangles>
+    </sprite>
+    <sprite n="zombie_climb1.png" x="164" y="98" w="64" h="92" pX="0.5" pY="0.5" oX="5" oY="16" oW="80" oH="110">
+        <vertices>69 99 15 108 5 16 69 16</vertices>
+        <verticesUV>228 181 174 190 164 98 228 98</verticesUV>
+        <triangles>0 2 3 0 1 2</triangles>
+    </sprite>
+    <sprite n="zombie_climb2.png" x="1" y="193" w="65" h="94" pX="0.5" pY="0.5" oX="6" oY="13" oW="80" oH="110">
+        <vertices>71 17 71 107 19 107 6 26 33 13</vertices>
+        <verticesUV>66 197 66 287 14 287 1 206 28 193</verticesUV>
+        <triangles>2 3 4 1 2 4 0 1 4</triangles>
+    </sprite>
+    <sprite n="zombie_duck.png" x="68" y="193" w="68" h="87" pX="0.5" pY="0.5" oX="7" oY="23" oW="80" oH="110">
+        <vertices>75 44 75 110 7 110 7 39 50 23</vertices>
+        <verticesUV>136 214 136 280 68 280 68 209 111 193</verticesUV>
+        <triangles>2 0 1 2 3 0 0 3 4</triangles>
+    </sprite>
+    <sprite n="zombie_fall.png" x="138" y="193" w="80" h="95" pX="0.5" pY="0.5" oX="0" oY="15" oW="80" oH="110">
+        <vertices>80 78 80 94 71 110 27 109 1 89 0 65 27 15 73 15</vertices>
+        <verticesUV>218 256 218 272 209 288 165 287 139 267 138 243 165 193 211 193</verticesUV>
+        <triangles>0 6 7 3 0 1 3 4 5 3 5 0 3 1 2 0 5 6</triangles>
+    </sprite>
+    <sprite n="zombie_hang.png" x="1" y="290" w="76" h="107" pX="0.5" pY="0.5" oX="4" oY="3" oW="80" oH="110">
+        <vertices>80 25 80 47 68 110 33 110 4 89 4 28 41 3</vertices>
+        <verticesUV>77 312 77 334 65 397 30 397 1 376 1 315 38 290</verticesUV>
+        <triangles>3 1 2 4 5 1 4 1 3 1 5 6 0 1 6</triangles>
+    </sprite>
+    <sprite n="zombie_hold1.png" x="79" y="290" w="79" h="103" pX="0.5" pY="0.5" oX="0" oY="7" oW="80" oH="110">
+        <vertices>79 62 79 77 57 82 56 110 0 110 0 30 41 7</vertices>
+        <verticesUV>158 345 158 360 136 365 135 393 79 393 79 313 120 290</verticesUV>
+        <triangles>4 2 3 4 5 2 2 5 6 0 1 2 0 2 6</triangles>
+    </sprite>
+    <sprite n="zombie_hold2.png" x="160" y="290" w="73" h="90" pX="0.5" pY="0.5" oX="7" oY="20" oW="80" oH="110">
+        <vertices>62 110 7 110 7 20 62 20 80 80 78 80 78 76 80 76</vertices>
+        <verticesUV>215 380 160 380 160 290 215 290 233 350 231 350 231 346 233 346</verticesUV>
+        <triangles>1 2 3 0 1 3 5 6 7 4 5 7</triangles>
+    </sprite>
+    <sprite n="zombie_hurt.png" x="1" y="399" w="80" h="101" pX="0.5" pY="0.5" oX="0" oY="9" oW="80" oH="110">
+        <vertices>70 19 80 77 80 104 32 110 0 92 0 40 31 9</vertices>
+        <verticesUV>71 409 81 467 81 494 33 500 1 482 1 430 32 399</verticesUV>
+        <triangles>1 2 3 3 4 5 1 3 5 0 1 5 0 5 6</triangles>
+    </sprite>
+    <sprite n="zombie_idle.png" x="83" y="399" w="68" h="93" pX="0.5" pY="0.5" oX="7" oY="17" oW="80" oH="110">
+        <vertices>68 24 75 96 65 110 8 110 7 30 35 17</vertices>
+        <verticesUV>144 406 151 478 141 492 84 492 83 412 111 399</verticesUV>
+        <triangles>3 1 2 3 4 1 1 4 5 0 1 5</triangles>
+    </sprite>
+    <sprite n="zombie_jump.png" x="153" y="399" w="79" h="103" pX="0.5" pY="0.5" oX="0" oY="7" oW="80" oH="110">
+        <vertices>65 18 79 33 65 102 39 110 18 110 0 92 18 7</vertices>
+        <verticesUV>218 410 232 425 218 494 192 502 171 502 153 484 171 399</verticesUV>
+        <triangles>3 4 5 2 3 5 1 2 5 0 1 5 0 5 6</triangles>
+    </sprite>
+    <sprite n="zombie_kick.png" x="1" y="504" w="79" h="92" pX="0.5" pY="0.5" oX="1" oY="18" oW="80" oH="110">
+        <vertices>62 63 80 79 80 96 38 110 1 110 1 18 62 18</vertices>
+        <verticesUV>62 549 80 565 80 582 38 596 1 596 1 504 62 504</verticesUV>
+        <triangles>0 5 6 4 5 0 0 1 2 0 2 3 4 0 3</triangles>
+    </sprite>
+    <sprite n="zombie_skid.png" x="82" y="504" w="72" h="98" pX="0.5" pY="0.5" oX="6" oY="12" oW="80" oH="110">
+        <vertices>78 58 78 110 16 110 6 24 53 12</vertices>
+        <verticesUV>154 550 154 602 92 602 82 516 129 504</verticesUV>
+        <triangles>0 3 4 0 1 2 0 2 3</triangles>
+    </sprite>
+    <sprite n="zombie_slide.png" x="156" y="504" w="80" h="92" pX="0.5" pY="0.5" oX="0" oY="18" oW="80" oH="110">
+        <vertices>80 56 80 95 42 110 17 110 4 104 0 88 0 37 34 18</vertices>
+        <verticesUV>236 542 236 581 198 596 173 596 160 590 156 574 156 523 190 504</verticesUV>
+        <triangles>0 6 7 0 2 5 3 4 5 2 3 5 0 1 2 0 5 6</triangles>
+    </sprite>
+    <sprite n="zombie_stand.png" x="1" y="604" w="63" h="90" pX="0.5" pY="0.5" oX="9" oY="20" oW="80" oH="110">
+        <vertices>72 87 67 110 9 110 9 20 68 20</vertices>
+        <verticesUV>64 671 59 694 1 694 1 604 60 604</verticesUV>
+        <triangles>0 3 4 2 3 0 2 0 1</triangles>
+    </sprite>
+    <sprite n="zombie_swim1.png" x="66" y="604" w="80" h="100" pX="0.5" pY="0.5" oX="0" oY="8" oW="80" oH="110">
+        <vertices>66 18 80 72 80 102 35 108 0 102 0 53 22 8</vertices>
+        <verticesUV>132 614 146 668 146 698 101 704 66 698 66 649 88 604</verticesUV>
+        <triangles>1 2 3 3 4 5 1 3 5 0 1 5 0 5 6</triangles>
+    </sprite>
+    <sprite n="zombie_swim2.png" x="148" y="604" w="79" h="99" pX="0.5" pY="0.5" oX="0" oY="11" oW="80" oH="110">
+        <vertices>79 71 79 99 39 110 1 102 0 56 17 13 64 11</vertices>
+        <verticesUV>227 664 227 692 187 703 149 695 148 649 165 606 212 604</verticesUV>
+        <triangles>4 5 6 2 0 1 2 3 4 2 4 0 0 4 6</triangles>
+    </sprite>
+    <sprite n="zombie_talk.png" x="1" y="706" w="78" h="93" pX="0.5" pY="0.5" oX="0" oY="17" oW="80" oH="110">
+        <vertices>57 23 78 79 70 110 0 110 0 26 26 17</vertices>
+        <verticesUV>58 712 79 768 71 799 1 799 1 715 27 706</verticesUV>
+        <triangles>1 4 5 1 2 3 1 3 4 0 1 5</triangles>
+    </sprite>
+    <sprite n="zombie_walk1.png" x="81" y="706" w="77" h="96" pX="0.5" pY="0.5" oX="2" oY="14" oW="80" oH="110">
+        <vertices>68 23 79 110 2 110 2 58 21 14</vertices>
+        <verticesUV>147 715 158 802 81 802 81 750 100 706</verticesUV>
+        <triangles>0 1 3 1 2 3 0 3 4</triangles>
+    </sprite>
+    <sprite n="zombie_walk2.png" x="160" y="706" w="62" h="95" pX="0.5" pY="0.5" oX="10" oY="15" oW="80" oH="110">
+        <vertices>72 22 72 63 59 110 12 110 10 35 33 15</vertices>
+        <verticesUV>222 713 222 754 209 801 162 801 160 726 183 706</verticesUV>
+        <triangles>3 1 2 3 4 1 1 4 5 0 1 5</triangles>
+    </sprite>
+</TextureAtlas>
