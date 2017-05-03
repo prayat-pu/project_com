@@ -1,4 +1,4 @@
 # project_com
 mangster jump
-มีการเเบ่ง code ออกเป็นสามส่วน โดยจะมี sprite เป็นส่วนของ object ต่างๆภายในเกม มีส่วนของ setting ในการปรับเเต่งต่างๆ ของโปรเเกม เเละ การทำงานหลักของเกมจะอยู่ที่ pj
-การรันโปรเเกม ให้กดรันที่ไฟล์ pj 
+mangster jump code have 3 part 1.sprite is all object in the game 2. setting 3.pj is main part of work 
+run =  run  pj.py file
